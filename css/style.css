@@ -44,6 +44,13 @@ table {
 }
 
 
+.container img {
+max-width: 100% !important;
+height:auto;
+}
+
+
+
 body {
 
 font-size: 16px;	
@@ -51,7 +58,127 @@ font-size: 16px;
 }
 
 
+.container {
+    margin: 0 auto;
+    max-width: 1025px;
+    min-width: 320px;
+    padding: 0px 80px 0px 80px;
+}
+
+.row:before,
+.row:after {
+    display: table;
+    line-height: 0;
+    content: ""
+}
+.row:after {
+    clear: both
+}
+.row {
+    @include clearfix;
+    margin: 0 -12px;
+}
+.row:after {
+    clear: both
+}
+[class*='col-'],
+[class*='span'] {
+    display: block;
+    float: left;
+    padding: 0 12px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+
+
+[class*='span-'] img {
+    margin: 0;
+    padding: 0;
+}
+.span1 {
+    width: 8.3333%
+}
+.span2 {
+    width: 16.666667%
+}
+.span3 {
+    width: 25%
+}
+.span4 {
+    width: 33.333%
+}
+.span5 {
+    width: 41.6667%
+}
+.span6 {
+    width: 50%
+}
+.span7 {
+    width: 58.3333%
+}
+.span8 {
+    width: 66.6667%
+}
+.span9 {
+    width: 75%
+}
+.span10 {
+    width: 83.3333%
+}
+.span11 {
+    width: 91.6667%
+}
+.span12 {
+    width: 100%
+}
+.offset1 {
+    margin-left: 8.3333%
+}
+.offset2 {
+    margin-left: 16.666667%
+}
+.offset3 {
+    margin-left: 25%
+}
+.offset4 {
+    margin-left: 33.333%
+}
+.offset5 {
+    margin-left: 41.6667%
+}
+.offset6 {
+    margin-left: 50%
+}
+.offset7 {
+    margin-left: 58.3333%
+}
+.offset8 {
+    margin-left: 66.6667%
+}
+.offset9 {
+    margin-left: 75%
+}
+.offset10 {
+    margin-left: 83.3333%
+}
+.offset11 {
+    margin-left: 91.6667%
+}
+.offset12 {
+    margin-left: 100%
+}
+
+
+
+
 .logo {
-	
+
+width:400px;	
 
 }
+
+
+
+
+
