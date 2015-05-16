@@ -19,6 +19,7 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -53,21 +54,37 @@ body {
 
 font-size: 16px;	
 font-family: 'Source Sans Pro', sans-serif;
-color: #000;
+font-family: 'Source Serif Pro', serif;
+color: #66c6bd;
+color: #404041;
 background: ;
-
-
-
 }
+
+.w {
+	color: #fff;
+
+	
+}
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
 p {
 	margin-bottom: 20px;
+	line-height: 1.5
 }
 
 a {
 	color: #000;
 	text-decoration:none;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #fbaf33;
 	padding-bottom: 5px;	
 }
 
@@ -77,15 +94,21 @@ b, strong {
 }
 
 
-h1 {
-font-size: 2em;
-font-family: 'Source Serif Pro', serif;
-color:#000;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Serif Pro', serif;
+
+	
 }
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
 h2 {
 font-size: 1.5em;
-
 }
+
 h3 {
 font-size: 1.2em;
 
@@ -102,15 +125,12 @@ text-align: left;
 }
 
 
-
-
-
 .container {
 margin: 0 auto;
-max-width: 1025px;
-min-width: 320px;
-padding: 0px 80px 0px 80px;
+min-width: 500px;
+padding: 60px 80px 60px 80px;
 }
+
 
 .row:before,
 .row:after {
@@ -122,13 +142,14 @@ content: ""
 clear: both
 }
 .row {
+max-width: 1025px;
+
 @include clearfix;
 margin: 0 -12px;
 }
 .row:after {
 clear: both
 }
-[class*='col-'],
 [class*='span'] {
 display: block;
 float: left;
@@ -139,7 +160,7 @@ margin-bottom: 2%;
 
 
 
-[class*='span-'] img {
+[class*='span'] img {
 margin: 0;
 padding: 0;
 }
@@ -213,16 +234,17 @@ margin-left: 83.3333%
 margin-left: 91.6667%
 }
 .offset12 {
-margin-left: 100%
+	margin-left: 100%
 }
 
 
 
 
 .logo {
-margin:0 auto;
-max-width: 600px;	
-padding: 40px;
+	margin:0 auto;
+	margin-bottom: 80px;
+	max-width: 700px;
+	padding: 0px;
 }
 
 
