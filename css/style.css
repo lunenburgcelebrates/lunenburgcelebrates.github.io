@@ -131,6 +131,10 @@ min-width: 500px;
 padding: 60px 80px 60px 80px;
 }
 
+.content {
+	margin:0 auto;
+	
+}
 
 .row:before,
 .row:after {
