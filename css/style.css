@@ -133,7 +133,8 @@ padding: 60px 80px 60px 80px;
 
 .content {
 	margin:0 auto;
-	
+	max-width: 1025px;
+
 }
 
 .row:before,
@@ -146,7 +147,6 @@ content: ""
 clear: both
 }
 .row {
-max-width: 1025px;
 
 @include clearfix;
 margin: 0 -12px;
