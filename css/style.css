@@ -82,26 +82,41 @@ p {
 }
 
 a {
-	color: #000;
+	color: #3c948b;
 	text-decoration:none;
-	border-bottom: 1px solid #fbaf33;
+	border-bottom: 0px solid #fbaf33;
 	padding-bottom: 5px;	
 }
 
-b, strong {
-	font-weight: bold;
+a:hover {
 	
 }
 
 
+sup {
+	font-size:.3em;
+	 vertical-align: super;
+
+}
+
+
+b, strong {
+	font-weight: bold;
+}
+i, em {
+	font-style: italic;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Source Serif Pro', serif;
+font-family: 'Source Sans Pro', sans-serif;
 
 	
 }
 
 h1 {
 	font-size: 2em;
+	font-weight:bold;
 	margin-bottom: 20px;
 }
 
@@ -128,46 +143,51 @@ text-align: left;
 .container {
 margin: 0 auto;
 min-width: 500px;
-padding: 60px 80px 60px 80px;
+padding: 130px 80px 130px 80px;
 }
+
+
+
+.footer-wrapper {
+	font-size:.8em;
+	padding: 15px 80px;
+	background: #474746;
+	color: #555;
+	
+	}
 
 .content {
 	margin:0 auto;
 	max-width: 1025px;
 
 }
-
 .row:before,
 .row:after {
-display: table;
-line-height: 0;
-content: ""
+	display: table;
+	line-height: 0;
+	content: ""
 }
 .row:after {
-clear: both
+	clear: both;
 }
 .row {
-
-@include clearfix;
-margin: 0 -12px;
+	@include clearfix;
+	margin: 0 -12px;
 }
+
 .row:after {
-clear: both
+	clear: both;
 }
+
 [class*='span'] {
-display: block;
-float: left;
-padding: 0 12px;
-width: 100%;
-margin-bottom: 2%;
+	display: block;
+	float: left;
+	padding: 0 12px;
+	width: 100%;
+	margin-bottom: 2%;
 }
 
 
-
-[class*='span'] img {
-margin: 0;
-padding: 0;
-}
 .span1 {
 width: 8.3333%
 }
@@ -248,7 +268,6 @@ margin-left: 91.6667%
 	margin:0 auto;
 	margin-bottom: 80px;
 	max-width: 700px;
-	padding: 0px;
 }
 
 
