@@ -6,9 +6,33 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700' rel='stylesheet' type='text/css'>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+	
+	
 	</head>
 	<body>
-		<div class="container">
+		<div class="container" id="top">
+		
+				
+		
 			<div class="content">
 				<div class="logo">
 					<img src="resources/lc-logo.png">
@@ -41,7 +65,9 @@
 				
 				
 				<div class="row">
-					<div style="width:60%;">
+					<div class="span8">
+					
+					
 						<h1>Hosted Events</h1>
 						<div class="event">
 							<h4><b>Rum & Chowder Social in celebration of World Ocean’s Day</b></h4>
@@ -188,28 +214,36 @@
 				</div>
 			</div>
 		</div>
-		<div class="container" style="padding:40px 100px">
+		
+		
+		<div class="container" style="padding-top:40px;padding-bottom:40px;">
 			<div class="content">
-				<h3>Supported by</h3>
-				<div class="row">
+				<h4><b>SUPPORTED BY</b></h4>
+				<div class="row" style="margin-top:30px;">
 					<div class="span2"><img src="/resources/logo/lcn.png"></div>
 					<div class="span2"><img src="/resources/logo/bcaf.png"></div>
 					<div class="span2"><img src="/resources/logo/novascotia.png"></div>
 					<div class="span2"><img src="/resources/logo/fm.png"></div>
-					<div class="span2"><img src="/resources/logo/lbot.png"></div>
 					<div class="span2"><img src="/resources/logo/lunenburg.png"></div>
+					<div class="span2"><img src="/resources/logo/lbot.png"></div>
+
 				</div>
-				<div class="row" style="margin-top:20px;">
-					<div class="span3"><img src="/resources/logo/canada.png"></div>
+				<div class="row" style="margin-top:30px;">
 					<div class="span3"><img src="/resources/logo/acoa.png"></div>
-					<div class="span3"><img src="/resources/logo/lwai.png"></div>
+
+					<div class="span3"><img src="/resources/logo/canada.png"></div>
 					<div class="span3"><img src="/resources/logo/wd.png"></div>
+					<div class="span3"><img src="/resources/logo/lwai.png"></div>
 				</div>
 			</div>
 		</div>
 		<footer>
 			<div class="footer-wrapper">
-				<div class="content">
+				<div class="content tc">
+				
+				       <a href="#top"><i class="fa fa-arrow-up" style="margin-right:5px;"></i>Top</a>
+
+				
 					Lunenburg Celebrates
 				</div>
 			</div>
