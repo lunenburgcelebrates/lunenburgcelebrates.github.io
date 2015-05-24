@@ -181,6 +181,11 @@ padding: 130px 80px 130px 80px;
 	color: #cccccc;
 	font-family: 'Source Sans Pro', sans-serif;
 	}
+.footer-wrapper a {
+	color: #cccccc;
+
+	}
+
 
 .content {
 	margin:0 auto;
