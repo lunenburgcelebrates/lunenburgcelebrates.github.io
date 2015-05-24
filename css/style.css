@@ -139,7 +139,9 @@ h1 {
 }
 
 h2 {
-font-size: 1.5em;
+font-size: 1.2em;
+margin-bottom: 20px;
+
 }
 
 h3 {
@@ -293,7 +295,7 @@ margin-left: 91.6667%
 }
 .logo {
 	margin:0 auto;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 	max-width: 600px;
 }
 
