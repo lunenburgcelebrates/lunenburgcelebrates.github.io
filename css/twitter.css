@@ -129,17 +129,17 @@ clear:both;
     
 .twitter_reply_icon:before {
 	font-family: FontAwesome;
-	content: "\f095";
+	content: "\f112";
 
 }
 .twitter_retweet_icon:before {
 	font-family: FontAwesome;
-	content: "\f095";
+	content: "\f079";
 
 }
 .twitter_fav_icon:before {
 	font-family: FontAwesome;
-	content: "\f095";
+	content: "\f004";
 
 }
    .twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
