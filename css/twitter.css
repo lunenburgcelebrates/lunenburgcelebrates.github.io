@@ -26,6 +26,11 @@ h5 {
 	
 }
 
+.instagram:nth-child(3n+4) {
+		clear:both;
+	}
+
+
 
 .container ul {
 	list-style: none;
