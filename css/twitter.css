@@ -90,7 +90,7 @@ font-weight: bold;
 	width: 100%;
 	display:block;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 20px 50px 20px;
 	float: left;
 }
   
@@ -99,7 +99,7 @@ font-weight: bold;
 	#tw-widget2 li {
 	width: calc(100% / 3);
 	float: left;
-	padding: 0 20px;
+	padding: 0 20px 50px 20px;
 	} 
 	
 	
@@ -125,7 +125,7 @@ font-weight: bold;
 #tw-widget2 .user a span {
 	display: block;
 	text-align: left;
-	font-weight: bold;
+	font-weight: ;
 }
 
 #tw-widget2 .user a img[data-scribe="element:avatar"] {
@@ -135,41 +135,40 @@ font-weight: bold;
 #tw-widget2 .user a span[data-scribe="element:name"] {
 	display: none;
 
-font-family: 'Source Sans Pro', sans-serif;
-text-transform: ;
-font-size:;
-font-weight: bold;
 }
 
 #tw-widget2 .user a span[data-scribe="element:screen_name"] {
 font-family: 'Source Sans Pro', sans-serif;
-text-transform: ;
-font-size:;
-font-weight: bold;
+text-transform: uppercase;
+font-size: .9em;
+font-weight: ;
 }
 
 
 #tw-widget2 .tweet {
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
-
 	padding: 10px 0px;
-	color: ;
-	font-size: ;
+	color: black ;
+	font-size: 1.2em ;
 }
 
 
 #tw-widget2 .tweet a {
 font-weight: ;
+	color: black ;
+
 text-decoration: none;
 }
 
 #tw-widget2 .tweet a[data-scribe="element:url"] {
 text-decoration: underline;
+	color: black ;
+
 }
 
 #tw-widget2 .tweet a[data-scribe="element:hashtag"] {
-color: ;
+	color: black ;
 }
 
 #tw-widget2 .tweet img[aria-label^="Emoji"] {
