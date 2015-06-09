@@ -20,6 +20,9 @@ h5 {
 .instagram {
 	
 	width:25%;
+	float:left;
+	display:block;
+	
 }
 
 
