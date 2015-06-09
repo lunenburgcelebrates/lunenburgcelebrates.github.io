@@ -96,7 +96,6 @@ h5 {
   #tw-widget2 .user a span {
     display: block;
     text-align: left;
-    color: white;
     font-weight: bold;
     }
     
@@ -119,10 +118,10 @@ h5 {
   color: black;
   }
   
+  
   #tw-widget2 .tweet a {
     font-weight: bold;
     text-decoration: none;
-    color: white;
     }
     
   #tw-widget2 .tweet a[data-scribe="element:url"] {
@@ -137,19 +136,21 @@ h5 {
     max-height: 14px;
     }
     
+    
 #tw-widget2 .timePosted {
-  margin: 0;
-  padding: 0 0;
-  font-size: 14px;
-  text-align: left;
-  }
+	margin: 0;
+	padding: 0 0;
+	font-size: 14px;
+	text-align: left;
+}
   
-  #tw-widget2 .timePosted:before {
-    font-family: "Fontawesome";
-    -webkit-font-smoothing: antialiased;
-    content: "";
-    padding-right: 4px;
-    }
+  
+#tw-widget2 .timePosted:before {
+	font-family: "Fontawesome";
+	-webkit-font-smoothing: antialiased;
+	content: "";
+	padding-right: 4px;
+}
     
     
     
@@ -163,15 +164,16 @@ h5 {
 	content: "\f079";
 
 }
+
 .twitter_fav_icon:before {
 	font-family: FontAwesome;
 	content: "\f004";
 
 }
-   .twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
-	   
+
+.twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
 	   padding-right: 20px;
-   }
+}
 
     
     
