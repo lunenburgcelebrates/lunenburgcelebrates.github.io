@@ -43,31 +43,41 @@ h5 {
     width: 9999px; }
     
   .example2:before {
-    right: 100%; }
+    right: 100%;
+    }
+    
   .example2:after {
-    left: 100%; }
+    left: 100%;
+    }
 
 #tw-widget2:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+  }
   
 #tw-widget2 li {
   width: 80%;
   display:block;
   margin: 0 auto;
-  float: left; }
+  float: left;
+  }
   
-  @media (min-width: 48em) {
-    #tw-widget2 li {
-      width: calc(100% / 3);
-      float: left;} 
-      
+  
+@media (min-width: 48em) {
+	#tw-widget2 li {
+	width: calc(100% / 3);
+	float: left;
+	padding: 0 20px;
+	} 
+	
+	
 	#tw-widget2 li:nth-child(3n+4) {
-clear:both;
-      }
-      
-      }
+		clear:both;
+	}
+	
+ 
+}
       
       
 #tw-widget2 a {
