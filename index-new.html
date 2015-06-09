@@ -93,7 +93,11 @@ twitterFetcher.fetch(config2);
         get: 'tagged',
         tagName: 'lunenburgcelebrates',
         clientId: '8bc8da1a654440c586f92617853cbc4a',
-        template: '<div class="instagram"><span><i class="fa fa-heart" style="margin-right:20px;"></i>{{likes}} Likes</span><a href="{{link}}"><img src="{{image}}" /></a><a href="http://instagram.com/{{model.user.username}}">{{model.user.username}}</a><p>{{caption}}</p></div>',
+        template: '<div class="instagram">
+        <p><i class="fa fa-heart"></i>{{likes}} Likes</p>
+        <a href="{{link}}"><img src="{{image}}" /></a>
+        <a href="http://instagram.com/{{model.user.username}}">{{model.user.username}}</a>
+        <p>{{caption}}</p></div>',
         resolution: 'standard_resolution'
     });
     feed.run();
