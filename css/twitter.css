@@ -151,9 +151,11 @@ font-weight: bold;
 
 #tw-widget2 .tweet {
 	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+
 	padding: 10px 0px;
 	color: ;
-	font-size: .9em;
+	font-size: ;
 }
 
 
@@ -175,12 +177,7 @@ max-height: 14px;
 }
 
 
-#tw-widget2 .timePosted {
-	margin: 0;
-	padding: 0 0;
-	font-size: .9em;
-	text-align: left;
-}
+
   
   
 #tw-widget2 .timePosted:before {

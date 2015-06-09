@@ -62,7 +62,6 @@ twitterFetcher.fetch(config1);
  *  Updates will be posted to this site.
  *********************************************************************/
 
-
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
@@ -82,13 +81,13 @@ twitterFetcher.fetch(config1);
   var parseLinks = true;
   var queue = [];
   var inProgress = false;
-  var printTime = true;
+  var printTime = false;
   var printUser = true;
   var formatterFunction = null;
   var supportsClassName = true;
   var showRts = true;
   var customCallbackFunction = null;
-  var showInteractionLinks = true;
+  var showInteractionLinks = false;
   var showImages = false;
   var targetBlank = true;
   var lang = 'en';
@@ -169,7 +168,7 @@ twitterFetcher.fetch(config1);
         config.customCallback = null;
       }
       if (config.showInteraction === undefined) {
-        config.showInteraction = true;
+        config.showInteraction = false;
       }
       if (config.showImages === undefined) {
         config.showImages = false;
@@ -316,38 +315,28 @@ twitterFetcher.fetch(config1);
               targetLinksToNewWindow(authors[n]);
             }
           }
-          if (printUser) {
+         
+          op += '<p class="tweet">' + strip(tweets[n].innerHTML) + '</p>';
+           if (printUser) {
             op += '<div class="user">' + strip(authors[n].innerHTML) +
                 '</div>';
           }
-          op += '<p class="tweet">' + strip(tweets[n].innerHTML) + '</p>';
-          if (printTime) {
-            if (permalinks) {
-              op += '<p class="timePosted"><a href="' + permalinksURL[n] +
-                 '">' + times[n].getAttribute('aria-label') + '</a></p>';
-            } else {
-              op += '<p class="timePosted">' +
-                  times[n].getAttribute('aria-label') + '</p>';
-            }
-          }
+         
         } else {
           if (tweets[n].innerText) {
             if (printUser) {
               op += '<p class="user">' + authors[n].innerText + '</p>';
             }
             op += '<p class="tweet">' +  tweets[n].innerText + '</p>';
-            if (printTime) {
-              op += '<p class="timePosted">' + times[n].innerText + '</p>';
-            }
+            
 
           } else {
-            if (printUser) {
+           
+            op += '<p class="tweet">' +  tweets[n].textContent + '</p>';
+             if (printUser) {
               op += '<p class="user">' + authors[n].textContent + '</p>';
             }
-            op += '<p class="tweet">' +  tweets[n].textContent + '</p>';
-            if (printTime) {
-              op += '<p class="timePosted">' + times[n].textContent + '</p>';
-            }
+           
           }
         }
         if (showInteractionLinks) {
