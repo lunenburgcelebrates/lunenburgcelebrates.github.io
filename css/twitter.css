@@ -30,8 +30,15 @@ h5 {
 font-family: 'Source Sans Pro', sans-serif;
 text-transform: uppercase;
 font-size:;
+font-weight: bold;
+
+}
+
+.comments {
 	
 }
+
+
 
 .instagram:nth-child(3n+4) {
 		clear:both;
@@ -126,13 +133,21 @@ font-size:;
 }
 
 #tw-widget2 .user a span[data-scribe="element:name"] {
-	font-size: 20px;
+	display: none;
+
+font-family: 'Source Sans Pro', sans-serif;
+text-transform: ;
+font-size:;
+font-weight: bold;
 }
 
 #tw-widget2 .user a span[data-scribe="element:screen_name"] {
-	font-size: 14px;
-	color: ;
+font-family: 'Source Sans Pro', sans-serif;
+text-transform: ;
+font-size:;
+font-weight: normal;
 }
+
 
 #tw-widget2 .tweet {
 	margin: 0;
