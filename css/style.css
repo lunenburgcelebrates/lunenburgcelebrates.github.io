@@ -97,9 +97,17 @@ h4 {
 .tl {
 	text-align: left;
 }
+
 .container {
 	margin: 0 auto;
 	min-width: 500px;
+	padding: 130px 60px 130px 60px;
+}
+
+.container-wide {
+	margin: 0 auto;
+	min-width: 500px;
+	padding: ;
 }
 
 .footer-wrapper {
@@ -109,6 +117,7 @@ h4 {
 	color: #cccccc;
 	font-family: 'Source Sans Pro', sans-serif;
 	}
+	
 .footer-wrapper a {
 	color: #cccccc;
 
@@ -117,8 +126,6 @@ h4 {
 .content {
 	margin:0 auto;
 	max-width: 900px;
-	padding: 130px 80px 130px 80px;
-
 }
 .row:before,
 .row:after {

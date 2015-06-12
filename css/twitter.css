@@ -76,7 +76,6 @@ font-weight: bold;
 .example2:before {
 	right: 100%;
 }
-
 .example2:after {
 	left: 100%;
 }
