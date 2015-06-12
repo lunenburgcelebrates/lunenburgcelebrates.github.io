@@ -95,7 +95,7 @@ font-weight: bold;
 }
   
   #tw-widget2 li:after {
-	   width: 4.236em;
+	   width: 25%;
   height: 3px;
   margin: 0 0 0 2.205em;
   background: #000;
