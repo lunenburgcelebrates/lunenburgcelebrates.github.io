@@ -324,11 +324,11 @@ twitterFetcher.fetch(config1);
          
         } else {
           if (tweets[n].innerText) {
+            
+            op += '<p class="tweet">' +  tweets[n].innerText + '</p>';
             if (printUser) {
               op += '<p class="user">' + authors[n].innerText + '</p>';
             }
-            op += '<p class="tweet">' +  tweets[n].innerText + '</p>';
-            
 
           } else {
            
@@ -395,7 +395,7 @@ twitterFetcher.fetch(config2);
 		
 		<script type="text/javascript">
     var feed = new Instafeed({
-    	limit: 9,
+    	limit: 15,
         get: 'tagged',
         tagName: 'lunenburgcelebrates',
         clientId: '8bc8da1a654440c586f92617853cbc4a',
@@ -464,14 +464,6 @@ twitterFetcher.fetch(config2);
 	</div>
 </section>
 		
-		
-		<footer>
-			<div class="footer-wrapper">
-				<div class="content">
-					<a href="#top"><i class="fa fa-arrow-up" style="margin-right:8px;"></i></a>
-					<div style="float:right;">Connect with us <b><a href="https://twitter.com/search?q=%23lunenburgcelebrates&src=typd&lang=en-gb">#lunenburgcelebrates</a></b></div>
-				</div>
-			</div>
-		</footer>
+	
 	</body>
 </html>
