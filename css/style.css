@@ -99,13 +99,13 @@ h4 {
 .container {
 	margin: 0 auto;
 	min-width: 500px;
-	padding: 130px 60px 130px 60px;
+	padding: 100px 60px 100px 60px;
 }
 
 .container-wide {
 	margin: 0 auto;
 	min-width: 500px;
-	padding: 130px 0px 130px 0px;
+	padding: 100px 0px 100px 0px;
 }
 
 .footer-wrapper {
@@ -113,8 +113,8 @@ h4 {
 	padding: 15px 80px;
 	background: #1a1a1a;
 	color: #cccccc;
-font-family: 'Open Sans', sans-serif;
-	}
+	font-family: 'Open Sans', sans-serif;
+}
 	
 .footer-wrapper a {
 	color: #cccccc;
