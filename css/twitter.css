@@ -94,6 +94,15 @@ font-weight: bold;
 	float: left;
 }
   
+  #tw-widget2 li:after {
+	   width: 4.236em;
+  height: 3px;
+  margin: 0 0 0 2.205em;
+  background: #000;
+}
+ 
+  
+  
   
 @media (min-width: 48em) {
 	#tw-widget2 li {
