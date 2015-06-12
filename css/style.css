@@ -1,10 +1,8 @@
 body {
-font-size: 16px;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Source Serif Pro', serif;
-color: #66c6bd;
-color: #404041;
-background: ;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	color: #66c6bd;
+	color: #404041;
 }
 *,
 *:after,
@@ -14,8 +12,8 @@ background: ;
     box-sizing: border-box;
 }
 img {
-max-width: 100% !important;
-height:auto;
+	max-width: 100% !important;
+	height:auto;
 }
 p {
 	margin-bottom: 20px;
@@ -41,8 +39,8 @@ i, em {
 	font-style: italic;
 }
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Source Sans Pro', sans-serif;
 
+font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -115,7 +113,7 @@ h4 {
 	padding: 15px 80px;
 	background: #1a1a1a;
 	color: #cccccc;
-	font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
 	}
 	
 .footer-wrapper a {
