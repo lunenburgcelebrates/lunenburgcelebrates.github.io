@@ -100,7 +100,6 @@ h4 {
 .container {
 	margin: 0 auto;
 	min-width: 500px;
-	padding: 130px 80px 130px 80px;
 }
 
 .footer-wrapper {
@@ -118,6 +117,8 @@ h4 {
 .content {
 	margin:0 auto;
 	max-width: 900px;
+	padding: 130px 80px 130px 80px;
+
 }
 .row:before,
 .row:after {
