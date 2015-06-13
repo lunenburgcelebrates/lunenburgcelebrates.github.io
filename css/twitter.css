@@ -30,7 +30,7 @@ h5 {
 .username {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
-font-size:.9em;
+font-size:.8em;
 font-weight: bold;
 
 }
@@ -145,7 +145,6 @@ font-weight: bold;
 }
 
 #tw-widget2 .user a span[data-scribe="element:screen_name"] {
-font-family: 'Source Sans Pro', sans-serif;
 text-transform: uppercase;
 font-size: .9em;
 font-weight: ;
@@ -154,7 +153,6 @@ font-weight: ;
 
 #tw-widget2 .tweet {
 	margin: 0;
-	font-family: 'Source Sans Pro', sans-serif;
 	padding: 10px 0px;
 	color: black ;
 	font-size: 1em ;
@@ -164,13 +162,13 @@ font-weight: ;
 
 
 #tw-widget2 .tweet a {
-font-weight: ;
-	color: black ;
+	color: black;
 
-text-decoration: underline;
 }
 
 #tw-widget2 .tweet a:hover {
+text-decoration: underline;
+
 }
 
 #tw-widget2 .tweet a[data-scribe="element:url"] {
@@ -180,7 +178,7 @@ text-decoration: underline;
 }
 
 #tw-widget2 .tweet a[data-scribe="element:hashtag"] {
-	color: black ;
+	color: black;
 }
 
 #tw-widget2 .tweet img[aria-label^="Emoji"] {
@@ -199,23 +197,6 @@ max-height: 14px;
 }
     
     
-    
-.twitter_reply_icon:before {
-	font-family: FontAwesome;
-	content: "\f112";
-}
-
-.twitter_retweet_icon:before {
-	font-family: FontAwesome;
-	content: "\f079";
-
-}
-
-.twitter_fav_icon:before {
-	font-family: FontAwesome;
-	content: "\f004";
-
-}
 
 .twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
 	   padding-right: 20px;
