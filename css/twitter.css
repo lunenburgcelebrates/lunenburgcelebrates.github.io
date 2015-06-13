@@ -17,15 +17,7 @@ h5 {
 	margin: 0 0 3em;
 }
 
-.instagram {
-	line-height:0;
-	width:33.33%;
-	float:left;
-	display:block;
-	padding: 0;
-	margin: 0;
-	
-}
+
 
 .username {
 	font-family: 'Open Sans', sans-serif;
@@ -99,20 +91,36 @@ font-weight: bold;
   background: #000;
 }
  
+  .instagram {
+	line-height:0;
+	width:100%;
+	float:left;
+	display:block;
+	padding: 0;
+	margin: 0;
+	
+}
   
   
-  
-@media (min-width: 48em) {
+@media (min-width: 40em) {
 	#tw-widget2 li {
 	width: calc(100% / 3);
 	float: left;
 	padding: 0 20px 50px 20px;
 	} 
 	
-	
 	#tw-widget2 li:nth-child(3n+4) {
 		clear:both;
 	}
+	
+	.instagram {
+	line-height:0;
+	width: calc(100% / 3);
+	float:left;
+	display:block;
+
+	
+}
 	
  
 }
