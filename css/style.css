@@ -1,5 +1,5 @@
 body {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 	color: #404041;
 }
@@ -51,15 +51,16 @@ color: #404041;
 
 
 h1 {
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 1.5;
 	font-weight:bold;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 h2 {
 	font-size: 1.2em;
 	margin-bottom: 30px;
+	margin-top: 20px;
 
 }
 
