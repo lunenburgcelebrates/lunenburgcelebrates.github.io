@@ -104,7 +104,19 @@ font-weight: bold;
 	
 }
       
-  @media screen and (max-device-width: 480px) {
+      
+      
+     @media only screen and (min-width: 1024px) {
+
+	#tw-widget2 li {
+	width: 50%;
+
+}
+
+}
+      
+      
+  @media only screen and (max-device-width: 480px) {
 
 
 	#tw-widget2 li {
