@@ -104,7 +104,7 @@ font-weight: bold;
 	
 }
       
-  @media only screen and (max-device-width: 480px) {
+  @media (max-device-width: 480px) {
 
 
 	#tw-widget2 li {
