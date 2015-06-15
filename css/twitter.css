@@ -108,10 +108,20 @@ font-weight: bold;
       
      @media only screen and (max-width: 1024px) {
 
+#tw-widget2 li:nth-child(3n+4) {
+		clear:none;
+	}
 	#tw-widget2 li {
 	width: 50%;
 
 }
+
+
+
+#tw-widget2 li:nth-child(2n+3) {
+		clear:both;
+	}
+
 
 }
       
