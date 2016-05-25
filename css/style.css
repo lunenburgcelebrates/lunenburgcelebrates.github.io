@@ -99,19 +99,6 @@ ul.dashed > li:before {
   text-indent: -5px;
 }
 
-
-h4 a:after {
-	content: "\f08e";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 13px;
-    padding-left: 0.5em;
-    }
-
 .tc {text-align: center;}
 .tr {text-align: right;}
 .tl {text-align: left;}
