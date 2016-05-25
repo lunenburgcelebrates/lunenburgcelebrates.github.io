@@ -1,6 +1,6 @@
 body {
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 	color: #404041;
 }
 *,
@@ -29,8 +29,8 @@ a:hover {
 
 }
 sup {
-	font-size:.3em;
-	 vertical-align: super;
+	font-size:.5em;
+	vertical-align: super;
 }
 b, strong {
 	font-weight: bold;
@@ -40,8 +40,7 @@ i, em {
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Open Sans', sans-serif;
-
+font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 }
 
 
@@ -54,7 +53,7 @@ h1 {
 	font-size: 1.8em;
 	line-height: 1.5;
 	font-weight:bold;
-	margin-bottom: 40px;
+	margin: 30px 0 30px 0;
 }
 
 h2 {
@@ -75,6 +74,31 @@ h4 {
 	margin-bottom: 10px;
 
 }
+
+hr {
+	height:2px;
+	width: 100%;
+	background: #404041;
+	border:none;
+	outline:none;
+
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  margin-right:10px;
+  text-indent: -5px;
+}
+
 
 h4 a:after {
 	content: "\f08e";
@@ -109,7 +133,7 @@ h4 a:after {
 	padding: 15px 80px;
 	background: #1a1a1a;
 	color: #cccccc;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 }
 	
 .footer-wrapper a {
@@ -156,18 +180,6 @@ h4 a:after {
 .span10 {width: 83.3333%}
 .span11 {width: 91.6667%}
 .span12 {width: 100%}
-.offset1 {margin-left: 8.3333%}
-.offset2 {margin-left: 16.666667%}
-.offset3 {margin-left: 25%}
-.offset4 {margin-left: 33.333%}
-.offset5 {margin-left: 41.6667%}
-.offset6 {margin-left: 50%}
-.offset7 {margin-left: 58.3333%}
-.offset8 {margin-left: 66.6667%}
-.offset9 {margin-left: 75%}
-.offset10 {margin-left: 83.3333%}
-.offset11 {margin-left: 91.6667%}
-.offset12 {margin-left: 100%}
 
 .logo {
 	margin:0 auto;
