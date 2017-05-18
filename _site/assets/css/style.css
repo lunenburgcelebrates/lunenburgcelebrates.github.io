@@ -1,0 +1,221 @@
+/* Defaults */ 
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* Site Styling */ 
+
+body {
+	font-size: 20px;
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+	color: #404041;
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+	max-width: 100% !important;
+	height:auto;
+}
+p {
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+a {
+	color: #3c948b;
+	text-decoration:none;
+	border-bottom: 0px solid #fbaf33;
+	padding-bottom: 5px;
+}
+a:hover {
+	text-decoration:underline;
+
+}
+sup {
+	font-size:.5em;
+	vertical-align: super;
+}
+b, strong {
+	font-weight: bold;
+}
+i, em {
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+}
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+color: #404041;
+}
+
+
+h1 {
+	font-size: 1.8em;
+	line-height: 1.5;
+	font-weight:bold;
+	margin: 30px 0 30px 0;
+}
+
+h2 {
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	font-weight:bold;
+}
+
+h4 {
+	font-size: 1em;
+	margin-bottom: 10px;
+
+}
+
+hr {
+	height:2px;
+	width: 100%;
+	background: #404041;
+	border:none;
+	outline:none;
+
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  margin-right:10px;
+  text-indent: -5px;
+}
+
+.tc {text-align: center;}
+.tr {text-align: right;}
+.tl {text-align: left;}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 80px 60px 80px 60px;
+}
+
+.container-wide {
+	margin: 0 auto;
+	padding: 80px 0px 80px 0px;
+}
+
+.footer-wrapper {
+	font-size:.8em;
+	padding: 15px 80px;
+	background: #1a1a1a;
+	color: #cccccc;
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+}
+	
+.footer-wrapper a {
+	color: #cccccc;
+
+}
+
+.content {
+	margin:0 auto;
+	max-width: 900px;
+}
+.row:before,
+.row:after {
+	display: table;
+	line-height: 0;
+	content: ""
+}
+.row:after {clear: both;}
+
+.row {
+	@include clearfix;
+	margin: 0 -12px;
+}
+
+.row:after {clear: both;}
+
+[class*='span'] {
+	display: block;
+	float: left;
+	padding: 0 12px;
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.span1 {width: 8.3333%}
+.span2 {width: 16.666667%}
+.span3 {width: 25%}
+.span4 {width: 33.333%}
+.span5 {width: 41.6667%}
+.span6 {width: 50%}
+.span7 {width: 58.3333%}
+.span8 {width: 66.6667%}
+.span9 {width: 75%}
+.span10 {width: 83.3333%}
+.span11 {width: 91.6667%}
+.span12 {width: 100%}
+
+.logo {
+	margin:30px auto 0 auto;
+	margin-bottom: 150px;
+	max-width: 600px;
+}
+
+.event {
+	margin: 0 0 30px 0;
+}
+
+.events {
+	max-width:640px;
+}
+
+
+@media screen and (max-width:599px) {
+
+body {
+	font-size: .9rem;
+}
+  .span2, .span3 {
+    width: 50%;
+  }
+
+.container {
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+}
+
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+
+.events {
+	max-width:100%;
+}
+
+
+
+}
+
+
+
