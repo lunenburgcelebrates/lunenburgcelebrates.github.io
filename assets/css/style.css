@@ -312,7 +312,16 @@ ul.dashed > li:before {
     .span1-5 {
     width: 50%;
   }
+.square {
 
+
+}
+.square a {
+}
+.square:after {
+
+  padding-bottom: 100%;
+}
 
 
 }
