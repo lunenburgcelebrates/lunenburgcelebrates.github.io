@@ -13,16 +13,17 @@ layout: default
         </div>
     </div>
 </div>
-<div class="container" style="background:#e1e3e4;">
-    <div class="content">
+
+
+<div class="container" style="background: rgb(34,34,34);color: #f1f1f1">
+    <div class="content" style="max-width: 640px;">
         <div class="row">
             <div class="span12">
                 <div class="events">
                     <h2>June 7 – 11, 2017</h2>
-                    <h1>It’s Lunenburg’s birthday & we’re going to celebrate in style!</h1>
-                    <p>Preparations are underway for our 3<sup>rd</sup> annual BE A TOURIST IN YOUR TOWN weekend! Once again various groups and organizations are hosting events to help mark the Town’s 264<sup>th</sup> birthday. The actual birthday is Wednesday, June 7 but most activities will take place the following weekend.</p>
+                    <h1>It’s Lunenburg’s birthday,<br>and we’re going to celebrate in style!</h1>
+                    <p>Preparations are underway for our 3<sup>rd</sup> annual <em>Be A Tourist in Your Town</em> weekend! Once again various groups and organizations are hosting events to help mark the Town’s 264<sup>th</sup> birthday. The actual birthday is Wednesday, June 7 but most activities will take place the following weekend.</p>
                     <p>The Be a Tourist concept was designed to help encourage residents and visitors alike to take some time to explore all that our beautiful town has to offer and enjoy the assortment of activities that take place in our own backyard.</p>
-                    <p>Full events schedule to be posted soon!</p>
                     <p>Connect with us on <a href="https://twitter.com/search?q=%23lunenburgcelebrates&src=typd&lang=en-gb">#lunenburgcelebrates</a></p>
                 </div>
             </div>
@@ -32,60 +33,55 @@ layout: default
 
 
 
-
-
-{% comment %}
-
-    <div class="container" style="background:#e1e3e4;">
-        <div class="content">
-            <div class="row">
-                <div class="events">
-
-                    {% for place in site.data.events %}
-
-                        <div class="event span12">
-                            {% if place.link %}
-                                <h3><a href="{{ place.link }}">{{ place.name }}</a></h3>
-                            {% else %}
-                                <h3>{{ place.title }}</h3>
-                            {% endif %}
-                            {% if place.location %}
-                                <p><b>{{ place.location }}</b></p>
-                            {% endif %}
-                                <p>{{ place.description }}</p>
+<div class="container" style="">
+    <div class="content">
+        <div class="row">
+            <div class="events">
+                {% for place in site.data.events %}
+                <div class="span6">
+                    <div class="square" style="">
+                    <div class="event" style="">
+                        <h3>{{ place.name }}</h3>
+                        <h2>{{ place.event }} </h2>
+                        <p>{{ place.description | markdownify }}</p>
+                        {% if place.link %}<p><a href="{{ place.link }}">More info</a></p>{% endif %}
 
                         </div>
+                        <div class="event-details" style="">
 
-                    {% endfor %}
+                        <p><b>Time:</b> {{ place.date }}. {{ place.time }}<br>
+
+                        {% if place.location %}
+                        <b>Place:</b> {{ place.location }}<br>
+                        {% endif %}
 
 
-
-
-
+                        </p>
+                    </div>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
-
-{% endcomment %}
-
+</div>
 
 
 
-<div class="container" style="padding-top:40px;padding-bottom:40px;">
+
+
+
+<div class="container" style="padding-top:0px;padding-bottom:60px;">
+
     <div class="content">
-        <h4><b>Supported by:</b></h4>
-        <div class="row" style="margin-top:30px;">
-            <div class="span3"><img src="/assets/logo/lcn.png"></div>
-            <div class="span3"><img src="/assets/logo/fm.png"></div>
-            <div class="span3"><img src="/assets/logo/bcaf.png"></div>
-            <div class="span3"><img src="/assets/logo/lunenburg.png"></div>
-            <div class="span3"><img src="/assets/logo/lbot.png"></div>
-            <div class="span3"><img src="/assets/logo/bluenose.png"></div>
-            <div class="span3"><img src="/assets/logo/wd1.png"></div>
-            <div class="span3"><img src="/assets/logo/sspl.png"></div>
-            <div class="span3"><img src="/assets/logo/lfhf.png"></div>
-            <div class="span3"><img src="/assets/logo/lhs.png"></div>
+        <div class="row" style="margin-top:0px;">
+            {% for image in site.static_files %}
+            {% if image.path contains 'assets/logo/' %}
+            <div class="span1-5">
+                <div class="sponsor-image" style="background-image: url({{ image.path }});"></div>
+            </div>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
 </div>

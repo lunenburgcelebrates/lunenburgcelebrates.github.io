@@ -1,15 +1,225 @@
-- name: Bluenose Academy
-  location: Lunenburg
-  time: June 7 2017 4pm
-  description: is celebrating the Town’s birthday with a “Unity Day”. Students will take part in African Dancing workshops and a Heritage Scavenger Hunt around “Old Town” Lunenburg. The Mayor will address the students in the afternoon.</p>
-  link: http://www.ba.ednet.ns.ca/
-- name: Knaut-Rhuland House
-  location: 
-  time: June 7 2017 6pm
-  description: opens the 2016 season from 11:00am – 5:00pm.
-  link: http://www.lunenburgheritagesociety.ca/krhouse.htm
+- name: Town of Lunenburg and Rhumb Line Bike Shop
+  event: Bike Rodeo
+  location: Community Centre Parking Lot
+  date: June 7
+  time: 2:45pm
+  description: We will inspect your bikes to ensure they are in proper working order, teach safe cycling guidelines and test your skills in our obstacle course. Fun for all ages! Helmets are required.
+  link: http://www.explorelunenburg.ca  http://www.lunenburgbikeshop.com
+
+
+- name: Lunenburg Folk Harbour Society
+  event: Open House
+  location: 125 Montague Street
+  date: June 7, 8, 9
+  time: 9:00am-5:00pm
+  description: Come learn about all the work the society does to conserve, preserve and promote the natural and cultural history of Lunenburg.
+  link: http://www.folkharboursociety.com
+
+- name: Bluenose II
+  event: Deck Tours and Film
+  location: Company Store, Fisheries Museum
+  date: June 7
+  time: 5:00pm
+  description: "Open House at the Company Store will allow you to meet the 2017 Crew before they depart Lunenburg on June 12th to participate in Sail Boston & the Rendez-Vous 2017 Tall Ships Regatta! Doors open at 5:00pm, followed by open decks on board the Bluenose II at 6:00pm and a screening of Bluenose: The Legend Live at the Fisheries Museum of the Atlantic at 7:00pm. Enter our draw for a chance to sail on Bluenose II June 10th or 11th!" 
+  link: http://www.bluenose.novascotia.ca
+
+- name: Lunenburg Academy of Music Performance
+  event: Concert
+  location: Lunenburg Academy, 97 Kaulbach Street
+  date: June 7
+  time: 7:00pm
+  description: Enjoy the latest in Walter Delahunt's series of the complete Beethoven Piano Sonatas. Hear them masterfully performed.
+  link: http://www.lampns.ca
+
+- name: Lunenburg Farmers Market
+  event: Farmers Market
+  location: Lunenburg Arena
+  date: June 8
+  time: 8:30am-12:00pm
+  description: Our vendors come from all over and produce a wide range of fabulous products – fresh seasonal produce, grass-fed meats, free-range eggs, fresh and smoked fish, plants, fresh flowers, cheese, French breads, wine, preserves, honey, maple syrup, beautiful artisan items and more.
+  link: http://www.lunenburgfarmersmarket.ca 
+
+
+- name: Town of Lunenburg and Rhumb Line Bike Shop
+  event: Family Bike Ride
+  location: Back Harbour Trail
+  date: June 8
+  time: 6:30pm
+  description: Meet at the trailhead at the base of Dufferin Street. Helmets are required.
+  link: http://www.explorelunenburg.ca http://www.lunenburgbikeshop.com
+
+
+
+- name: Town of Lunenburg and Rhumb Line Bike Shop
+  event: Cycling 101 Repair Clinic/Women on Wheels Ride
+  location: Community Centre/Bay to Bay Trail
+  date: June 9
+  time: 9:00am
+  description: We will meet at the Community Centre at 9:00am for an introduction to bike repair and maintenance followed by a 10:00am ride on the Bay to Bay Trail to launch the Women on Wheels program.
+  link: http://www.explorelunenburg.ca   http://www.lunenburgbikeshop.com
+
+
 - name: Bluenose Coastal Action Foundation
-  location: 
-  time: June 7 2017 8pm
-  description: will once again host their very popular “Rum and Chowder Social” fundraiser but please note that the venue has changed and this year’s event will be held at the Lunenburg Community Centre from 6:00 – 9:00pm. Sample some of our local chef’s best chowders and wash it down with a variety of rum choices. Tickets are $30.00 in advance or $35.00 at the door. For tickets contact BCAF at 634-9977.
-  link: http://www.coastalaction.org/
+  event: Rum and Chowder Social
+  location: Lunenburg School of the Arts
+  date: June 9
+  time: 6:00pm-9:00pm
+  description: Sample some of our local chef’s best chowders and wash it down with a variety of rum choices. Tickets are $45.00 in advance or $50.00 at the door. For tickets contact BCAF at 634-9977.
+  link: http://www.coastalaction.org
+
+
+- name: Town of Lunenburg
+  event: Birthday Cake
+  location: Bandstand
+  date: June 10
+  time: 1:00pm-3:00pm
+  description: Celebrate our birthday with free cake!
+  link: http://www.explorelunenburg.ca
+
+
+- name: Fisheries Museum of the Atlantic
+  event: Open House
+  location: Museum and Wharf – 68 Bluenose Drive
+  date: June 10
+  time: 9:30am-5:00pm
+  description: Free admission for everyone with lots of new exhibits on display both inside the museum and on the wharf. Activities include Spinners on the Wharf, Boat Modelers guild presentation, Museum Trivia, Music, Face Painting
+  link: http://www.fisheriesmuseum.novascotia.ca 
+
+
+- name: Bluenose II
+  event: Public Cruises
+  location: Waterfront
+  date: June 10, 11
+  time: 9:30am and 1:30pm
+  description: For reservations call 1-855-640-3177, [email](mailto:shorecrew@bluenose2crew.ca) or book [online](http://bluenose.novascotia.ca). Decks will be open for the public between tours.
+  link: http://www.bluenose.novascotia.ca
+
+- name: Bluenose Coastal Action Foundation
+  event: Multi-Activities
+  location: Waterfront
+  date: June 10
+  time: 10:00am-4:00pm
+  description: "Celebrating Canada’s 150th Anniversary and World Oceans Week with the Lunenburg Heritage & Marine Stewardship Canada 150 Project. Events include Ocean Arts & Crafts for All Ages; Tour a Traditional Wooden Schooner: the Blue Dream Schooner; and Dory Rides with the Canadian Dory Rowing Association."
+  link: http://www.coastalaction.org
+
+- name: South Shore Public Libraries
+  event: Pop-Up Library
+  location: Wharf at Fisheries Museum
+  date: June 10
+  time: 10:00am-4:00pm
+  description: We'll have a little bit of everything there. Get a free library card while you're there and see what we have planned for the summer. 
+  link: http://www.southshorepubliclibraries.ca
+
+- name: Lunenburg Heritage Society
+  event: Heritage House Tour
+  location: Begins at Lunenburg Academy
+  date: June 10
+  time: 10:00am-4:00pm
+  description: "Enjoy the remarkable interiors of five houses, five churches, one museum, and two educational institutions. During which there will be Tea and Light Refreshments at St. John's Parish Hall from 2pm - 4pm. Admission is included in House Tour ticket but will open to all for $5.  Tickets: $20 advance/$25 at the door and available at Shop on the Corner or  [online](http://tinyurl.com/LHHT2017)."
+  link: http://www.lunenburgheritagesociety.ca
+
+
+- name: Lunenburg Churches
+  event: Open House
+  location: Lunenburg
+  date: June 10
+  time: 12:00pm-4:00pm
+  description: "The following churches will open their doors to the public: St. Norbert’s Roman Catholic Church; Central United Church; St. John’s Anglican Church; Zion Evangelical Lutheran Church; St. Andrew’s Presbyterian Church"
+  link:
+
+- name: The Lunenburg Folk Harbour Society
+  event: Concert
+  location: Lunenburg Opera House
+  date: June 10
+  time: 7:30pm
+  description: "The Stanfields in Concert! Tickets are $12.50 for ages 25 and under; $25 for 26+ and can be purchased at Caico Mae Clothiers and Shop on the Corner or [online](http://ww3.ticketpro.ca/groups.php?id=235)."
+  link: http://www.folkharboursociety.com
+
+
+- name: Railway Museum and Model Railroad 
+  event: Open House
+  location: "11188 Hwy #3"
+  date: June 10, 11
+  time: 10:00am-5:00pm
+  description: Open with free admission.
+  link: http://www.hswmuseum.ednet.ns.ca 
+
+- name: South Shore Genealogical Society
+  event: Open House 
+  location: Lunenburg Academy, Room 203
+  date: June 10
+  time: 10:00am-4:00pm
+  description: Everyone welcome.
+  link: http://www.ssgs.ca 
+
+
+- name: Pleasant Paddling
+  event: ½ Price Kayak Rentals
+  location: 245 The Point Road, Blue Rocks
+  date: June 10
+  time: 9:30am-5:30pm
+  description: Enjoy a beautiful day of kayaking for half the price!
+  link: http://www.pleasantpaddling.com 
+
+
+- name: Lunenburg School of the Arts
+  event: Open House
+  location: 6 Prince Street
+  date: June 10
+  time: 10:00am-4:00pm
+  description: Come for a visit and see what we have to offer. 
+  link: http://www.lunenburgarts.org 
+
+
+- name: Lunenburg Opera House
+  event: Open House
+  location: 290 Lincoln Street.
+  date: June 10
+  time: 10:00am-4:00pm
+  description: A glimpse inside a Lunenburg masterpiece.
+  link: http://www.lunenburgoperahouse.com 
+
+
+- name: Ironworks Distillery
+  event: Tours and Tastings/Workshops
+  location: 2 Kempt Street
+  date: June 10
+  time: 11:00am-7:00pm
+  description: We welcome you to try free tours and tastings at 1:00pm and 3:00pm. Spaces are limited so call the distillery to book your free tour. They will also be hosting two of the Gin Distillation workshops that run during Spirited Away; once at 1:00pm and once at 4:00pm. Each will run about 1.5 hours and costs $50.00 per person.
+  link: http://www.ironworksdistillery.com 
+
+
+- name: Dave Westergard
+  event: Open House
+  location: Bluenose boat building shed
+  date: June 10
+  time: 10:00am-4:00pm
+  description: We will open the doors for you to see a schooner under construction.
+  link: 
+
+
+- name: Lorne Street Fire Company
+  event: Open House
+  location: 19 Lorne Street
+  date: June 10
+  time: 10:00am-4:00pm
+  description: Free tours of this Second-Empire style carriage house.
+  link: http://www.edwardsandquarrie.com/coach-house 
+
+
+- name: Annual 5km Muffin Run
+  event: Run/Walk
+  location: Lunenburg Community Centre parking lot
+  date: June 11
+  time: 9:30am
+  description: Between 400 and 500 runners usually show up for this very popular race through Lunenburg and the Back Harbour highway. Come out to cheer them on.
+  link: http://www.raceroster.com/events/2016/7413/lunenburg-5-km-road-race-and-muffin-festival 
+
+
+- name: Lunenburg Walking Tours
+  event: Free Tours
+  location: Lunenburg Academy/Mariner King Inn
+  date: June 11
+  time: 2:00pm and 8:30pm
+  description: "The Essential Lunenburg Tour begins at 2:00pm at Lunenburg Academy grounds and the Haunted Lunenburg Tour begins at 8:30pm at the Mariner King Inn on King Street."
+  link: http://www.novascotia.com/see-do/tours/lunenburg-walking-tours/2313
