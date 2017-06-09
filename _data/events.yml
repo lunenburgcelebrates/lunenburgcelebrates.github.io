@@ -71,6 +71,12 @@
   description: Sample some of our local chef’s best chowders and wash it down with a variety of rum choices. Tickets are $45 in advance or $55 at the door as seen on the poster. For tickets contact BCAF at 634-9977.
   link: http://www.coastalaction.org
 
+- name: The Gift Shoppe
+  event: Sale
+  location: Fisherman’s Memorial Hospital
+  date: June 7, 8, 9
+  description: All scarves on sale for $10. No Tax.
+
 - name: Town of Lunenburg
   event: Birthday Cake
   location: Bandstand
@@ -86,7 +92,6 @@
   time: 10:00am-5:00pm
   description: Come on out to learn about and try your hand at needle felting.
   link: http://www.lunenburgmakery.ca
-
 
 - name: Fisheries Museum of the Atlantic
   event: Open House
